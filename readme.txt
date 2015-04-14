@@ -48,7 +48,17 @@ $ git log
 ======================== upload to server ========================
 $ git push origin master
 	final push
+
+
 	
-============= some change on mater brunch ===============
+?<<<<<<< HEAD
+	============= some change on mater brunch ===============
+?=======
+
+	========================= dev2 brunch for another programmer ============
+	git checkout -b dev2
+
+	dev2.step2
+?>>>>>>> dev2
 	
 	

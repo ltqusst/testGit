@@ -63,4 +63,9 @@ $ git push origin master
 	
 
 some modify on master when the actuall remote/origin/master is advanced already by other people.
+when we try to push local master into remote, there is an error.
+because remote/origin/master is modified simutaniously as we do the work.
+we can only fetch remote master first and try to merge
+
+
 	

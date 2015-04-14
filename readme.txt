@@ -61,4 +61,8 @@ $ git push origin master
 	dev2.step2
 ?>>>>>>> dev2
 	
+
+
+dev2 do some mofidy on master
+
 	

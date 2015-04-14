@@ -65,6 +65,6 @@ $ git push origin master
 
 dev2 do some mofidy on master
 so master branch will be advanced than remote/origin/master normally.
-
+actually remote/origin/master will not move if we donnot pull/push with remote.
 
 	

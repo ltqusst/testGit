@@ -61,4 +61,6 @@ $ git push origin master
 	dev2.step2
 ?>>>>>>> dev2
 	
+
+some modify on master when the actuall remote/origin/master is advanced already by other people.
 	

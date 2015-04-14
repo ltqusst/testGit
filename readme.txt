@@ -48,7 +48,9 @@ $ git log
 ======================== upload to server ========================
 $ git push origin master
 	final push
-	
+
+======================== create brunch for dev1 for another programmer ========================	
+git checkout -b dev1
 
 	
 	

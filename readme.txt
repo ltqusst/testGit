@@ -52,5 +52,7 @@ $ git push origin master
 
 ========================= dev2 brunch for another programmer ============
 git checkout -b dev2
+
+dev2.step2
 	
 	

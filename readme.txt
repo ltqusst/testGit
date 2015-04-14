@@ -49,12 +49,54 @@ $ git log
 $ git push origin master
 	final push
 
-======================== create brunch for dev1 for another programmer ========================	
-git checkout -b dev1
 
-dev1.step2
+
+
+?<<<<<<< HEAD dev1
+	
+	======================== create brunch for dev1 for another programmer ========================	
+	git checkout -b dev1
+	dev1.step2
+	
+	dev1's modification is merged at last, when all others had pushed to orgin/master
+	
+?=======
+
+
+	
+	?<<<<<<< HEAD
+		============= some change on mater brunch ===============
+	?=======
+
+		========================= dev2 brunch for another programmer ============
+		git checkout -b dev2
+
+		dev2.step2
+	?>>>>>>> dev2
+
 
 
 
 	
+
+	?<<<<<<< HEAD
+	
+		dev3 do modification on master when the actuall remote/origin/master is advanced already by dev2.
+		when he try to push local master into remote, there is an error.
+		because remote/origin/master is modified simutaniously as dev3 do the work.
+		dev3 can only fetch remote master first and try to merge use "git merge origin"
+	
+
+	?=======
+
+		dev2 do some mofidy on master
+		so master branch will be advanced than remote/origin/master normally.
+		actually remote/origin/master will not move if we donnot pull/push with remote.
+
+		dev2's modification is pushed first, and sucessed
+
+		dev3 will need "git merge origin" before he can push to origin!!!
+	?>>>>>>> origin/master
+
+?>>>>>>> origin/master
 	
